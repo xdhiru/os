@@ -1,0 +1,164 @@
+### Information Maintenance:
+
+- **wc**: Word count of a file or input.
+  ```bash
+  wc filename.txt
+  ```
+
+- **clear**: Clears the terminal screen.
+  ```bash
+  clear
+  ```
+
+- **cal**: Display a calendar.
+  ```bash
+  cal
+  ```
+
+- **who**: Display who is logged on.
+  ```bash
+  who
+  ```
+
+- **date**: Display the current date and time.
+  ```bash
+  date
+  ```
+
+- **pwd**: Print the current working directory.
+  ```bash
+  pwd
+  ```
+
+### File Management:
+
+- **cat**: Concatenate and display the content of files.
+  ```bash
+  cat file1.txt
+  ```
+
+- **cp**: Copy files or directories.
+  ```bash
+  cp source.txt destination/
+  ```
+
+- **rm**: Remove (delete) files or directories.
+  ```bash
+  rm file.txt
+  ```
+
+- **mv**: Move or rename files or directories.
+  ```bash
+  mv oldfile.txt newfile.txt
+  ```
+
+- **cmp**: Compare two files byte by byte.
+  ```bash
+  cmp file1.txt file2.txt
+  ```
+
+- **comm**: Compare two sorted files line by line.
+  ```bash
+  comm file1.txt file2.txt
+  ```
+
+- **diff**: Display the differences between two files.
+  ```bash
+  diff file1.txt file2.txt
+  ```
+
+- **find**: Search for files and directories.
+  ```bash
+  find /path/to/search -name filename
+  ```
+
+- **grep**: Search for a pattern in files.
+  ```bash
+  grep pattern file.txt
+  ```
+
+- **awk**: Text processing tool for pattern scanning and processing.
+  ```bash
+  awk '{print $1}' file.txt
+  ```
+
+### Directory Management:
+
+- **cd**: Change the current working directory.
+  ```bash
+  cd /path/to/directory
+  ```
+
+- **mkdir**: Create a new directory.
+  ```bash
+  mkdir newdir
+  ```
+
+- **rmdir**: Remove an empty directory.
+  ```bash
+  rmdir emptydir
+  ```
+
+- **ls**: List files and directories.
+  ```bash
+  ls
+  ```
+
+### Process Control:
+
+- **fork**: Create a new process.
+  ```c
+  #include <unistd.h>
+  pid_t child_pid = fork();
+  ```
+
+- **getpid**: Get the process ID.
+  ```c
+  #include <unistd.h>
+  pid_t pid = getpid();
+  ```
+
+- **ps**: Display information about processes.
+  ```bash
+  ps
+  ```
+
+- **kill**: Send a signal to a process.
+  ```bash
+  kill process_id
+  ```
+
+- **sleep**: Pause execution for a specified time.
+  ```bash
+  sleep 5
+  ```
+
+### Communication:
+
+- **Input-output redirection**: Redirect the input or output of a command.
+  ```bash
+  cat < input.txt
+  ls > output.txt
+  ```
+
+- **Pipe**: Connect the output of one command to the input of another.
+  ```bash
+  command1 | command2
+  ```
+
+### Protection Management:
+
+- **chmod**: Change file permissions.
+  ```bash
+  chmod 755 filename
+  ```
+
+- **chown**: Change file owner.
+  ```bash
+  chown newowner:newgroup filename
+  ```
+
+- **chgrp**: Change file group.
+  ```bash
+  chgrp newgroup filename
+  ```
